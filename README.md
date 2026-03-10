@@ -10,7 +10,8 @@ The official website and documentation for the Theory of Co-Referential Cosmolog
 - 提出「互指性原理」，揭示意识与世界的关系；
 - 用「动态演化球」模型，描绘人生意义的生成路径。
 
-🌐 **官网**：[https://www.thecoreferentialuniverse.com/](https://www.thecoreferentialuniverse.com/)
+🌐 **官网**：[https://www.thecoreferentialuniverse.com/](https://www.thecoreferentialuniverse.com/) 
+📧 联系我：8022638@QQ.com
 
 ---
 
