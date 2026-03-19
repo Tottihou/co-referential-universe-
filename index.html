@@ -120,6 +120,20 @@
             margin: 10px 0;
             font-weight: 500;
         }
+        /* 访问计数器样式 */
+        .visitor-counter {
+            margin: 15px 0;
+            font-size: 0.95em;
+            color: #4a6fa5;
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #f0f7ff;
+            border-radius: 20px;
+        }
+        .visitor-counter img {
+            vertical-align: middle;
+            margin-left: 5px;
+        }
         @media (max-width: 600px) {
             body { padding: 15px; }
             .card-grid { grid-template-columns: 1fr; }
@@ -132,13 +146,12 @@
 </head>
 <body>
     <header>
-        <!-- 站名已修改为“互指宇宙” -->
         <h1>互指宇宙</h1>
         <p class="subtitle">The Co-Referential Universe</p>
     </header>
 
     <main>
-        <!-- 核心介绍（微调了第一句，去掉“论”字） -->
+        <!-- 核心介绍 -->
         <section class="intro">
             <h2>思想基站 · 正式启航</h2>
             <p>这是一个正在生长的思想协议。我们始于一个简单问题：<strong>「我是谁？」</strong>，追问<strong>「人为什么活着？」</strong>，探索<strong>「人与世界的关系？」</strong>，最终抵达一个统一框架：<strong>一切存在皆是系统，而意识的本质，是在差异与关系中动态生成自我的过程。</strong></p>
@@ -146,7 +159,7 @@
             <p>宇宙的对话，在此展开。诚邀你作为“合著者”，一同勘探、质疑与扩展。</p>
         </section>
 
-        <!-- ========= 理论文章专区 - 链接已改为 /theory/ ========= -->
+        <!-- 理论文章专区 -->
         <section>
             <h2 class="section-title">🧠 思想理论：《互指宇宙论》</h2>
             <div class="card-grid">
@@ -178,7 +191,7 @@
             </div>
         </section>
 
-        <!-- ========= 小说《三分》专区 - 链接已改为 /sanfen/ ========= -->
+        <!-- 小说《三分》专区 -->
         <section>
             <h2 class="section-title">📖 长篇叙事：《三分》</h2>
             <div class="card-grid">
@@ -200,7 +213,7 @@
             </div>
         </section>
 
-        <!-- ========= 随笔与对话集 - 链接已改为 /essays/ ========= -->
+        <!-- 随笔与对话集 -->
         <section>
             <h2 class="section-title">📝 随笔与对话集</h2>
             <div class="card-grid">
@@ -212,7 +225,7 @@
             </div>
         </section>
 
-        <!-- ========= 更多入口（知乎专栏）保持不变 ========= -->
+        <!-- 更多入口（知乎专栏） -->
         <section>
             <h2 class="section-title">🔗 更多入口</h2>
             <div class="card-grid">
@@ -226,6 +239,11 @@
     </main>
 
     <footer>
+        <!-- 访问计数器 - 就在这里！ -->
+        <div class="visitor-counter">
+            🌍 站点访客：<img src="https://visitor-badge.laobi.icu/badge?page_id=thecoreferentialuniverse.com&left_text=总数&right_color=4a6fa5" alt="访客计数" />
+        </div>
+
         <div class="contact-email">
             <a href="mailto:8022638@QQ.com">📧 联系我：8022638@QQ.com</a>
         </div>
