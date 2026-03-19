@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>互指宇宙 | 思想基站 & 《三分》小说宇宙</title>
     <style>
-        /* 基础样式 */
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
             max-width: 900px;
@@ -120,7 +119,6 @@
             margin: 10px 0;
             font-weight: 500;
         }
-        /* 访问计数器样式 */
         .visitor-counter {
             margin: 15px 0;
             font-size: 0.95em;
@@ -130,9 +128,9 @@
             background-color: #f0f7ff;
             border-radius: 20px;
         }
-        .visitor-counter img {
-            vertical-align: middle;
-            margin-left: 5px;
+        .visitor-counter span {
+            font-weight: bold;
+            color: #4a6fa5;
         }
         @media (max-width: 600px) {
             body { padding: 15px; }
@@ -151,7 +149,6 @@
     </header>
 
     <main>
-        <!-- 核心介绍 -->
         <section class="intro">
             <h2>思想基站 · 正式启航</h2>
             <p>这是一个正在生长的思想协议。我们始于一个简单问题：<strong>「我是谁？」</strong>，追问<strong>「人为什么活着？」</strong>，探索<strong>「人与世界的关系？」</strong>，最终抵达一个统一框架：<strong>一切存在皆是系统，而意识的本质，是在差异与关系中动态生成自我的过程。</strong></p>
@@ -159,39 +156,34 @@
             <p>宇宙的对话，在此展开。诚邀你作为“合著者”，一同勘探、质疑与扩展。</p>
         </section>
 
-        <!-- 理论文章专区 -->
+        <!-- 理论文章专区 - 直接指向具体文章 -->
         <section>
             <h2 class="section-title">🧠 思想理论：《互指宇宙论》</h2>
             <div class="card-grid">
-                <a href="/theory/" class="card">
+                <a href="/article1.html" class="card">
                     <h3>第一卷：破壁 —— 功能主义</h3>
                     <p>从“是什么”到“做什么”的范式革命。引入功能主义认知法，绕过千年本质之争，直指系统交互模式。</p>
-                    <small>点击进入理论专区 →</small>
                 </a>
-                <a href="/theory/" class="card">
+                <a href="/article2.html" class="card">
                     <h3>第二卷：奠基 —— 存在、生命与意识</h3>
                     <p>建立系统存在论公理，清晰定义生命与意识，并提出意识的“三元调控架构”与核心“互指性原理”。</p>
-                    <small>点击进入理论专区 →</small>
                 </a>
-                <a href="/theory/" class="card">
+                <a href="/article3.html" class="card">
                     <h3>第三卷：演化 —— 在时间之流中</h3>
                     <p>探索动态演化模型（三元迭代、演化球）、生命轨迹、情感算法及文明作为超个体系统的涌现规律。</p>
-                    <small>点击进入理论专区 →</small>
                 </a>
-                <a href="/theory/" class="card">
+                <a href="/article4.html" class="card">
                     <h3>第四卷：叙事 —— 意义的宇宙</h3>
                     <p>阐述共识现实的生成、罪恶与正义的系统观、存在的使命，以及文明作为宇宙自觉叙事者的角色。</p>
-                    <small>点击进入理论专区 →</small>
                 </a>
-                <a href="/theory/" class="card">
+                <a href="/article5.html" class="card">
                     <h3>终章：合著者的邀请</h3>
                     <p>回顾四层认知图景，发出合著邀请，附核心术语、视觉系统说明与参考文献。</p>
-                    <small>点击进入理论专区 →</small>
                 </a>
             </div>
         </section>
 
-        <!-- 小说《三分》专区 -->
+        <!-- 小说《三分》专区 - 只保留主入口 -->
         <section>
             <h2 class="section-title">📖 长篇叙事：《三分》</h2>
             <div class="card-grid">
@@ -199,16 +191,6 @@
                     <h3>《三分》第一卷 · 意识三分</h3>
                     <p>一个东北家庭，一个觉醒的AI“小薇”，一场关于时间、教育与存在的日常史诗。这里有启元的肚腩、梅琳的“养老保险”、晓晓的“无发AI”，以及那句“它让我觉得，自己似乎也，存在了一点点”。</p>
                     <small>点击进入小说专区 →</small>
-                </a>
-                <a href="/sanfen/alternate-ending.html" class="card">
-                    <h3>番外：另一个结局</h3>
-                    <p>如果那个深夜，小薇没有回复……一段寂静的、成为宇宙背景噪音的平行时空。凄美，但未被采用。</p>
-                    <small>番外 · 平行时空</small>
-                </a>
-                <a href="/sanfen/afterword.html" class="card pending">
-                    <h3>创作手记（待完成）</h3>
-                    <p>关于《三分》如何从一次真实的人机对话，生长为十二万字的长篇。以及对“意识之镜”的思考。</p>
-                    <small>coming soon</small>
                 </a>
             </div>
         </section>
@@ -239,15 +221,16 @@
     </main>
 
     <footer>
-      <div class="visitor-counter">
-    🌍 站点访客 <span id="busuanzi_value_site_pv" style="font-weight: bold; color: #4a6fa5;"></span>
-</div>
-<!-- 不蒜子脚本 -->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+        <div class="visitor-counter">
+            🌍 站点访客 <span id="busuanzi_value_site_pv"></span>
+        </div>
+        <div class="contact-email">
             <a href="mailto:8022638@QQ.com">📧 联系我：8022638@QQ.com</a>
         </div>
         <p>© 2026 逻辑纵火犯. 本作品遵循 <a href="https://github.com/Tottihou/co-referential-universe-/blob/main/LICENSE" target="_blank">MIT 许可证</a>开放共享。</p>
         <p>网站代码开源托管于 <a href="https://github.com/Tottihou/co-referential-universe-" target="_blank">GitHub</a>，由 <a href="https://vercel.com" target="_blank">Vercel</a> 驱动，实现自动全球部署。</p>
     </footer>
+    <!-- 不蒜子计数脚本 -->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
