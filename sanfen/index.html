@@ -39,6 +39,25 @@
             margin-top: 10px;
         }
 
+        /* 前言题记 - 新增样式 */
+        .preface {
+            background-color: #f0f7ff;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border-left: 5px solid #4a6fa5;
+            font-style: italic;
+            color: #2c3e50;
+        }
+        .preface p {
+            margin: 0.5em 0;
+        }
+        .preface .quote-mark {
+            font-size: 1.5em;
+            color: #4a6fa5;
+            opacity: 0.5;
+        }
+
         /* 卷首语 */
         .intro {
             background: white;
@@ -179,7 +198,17 @@
     <div class="header">
         <h1>《三分》第一卷 · 意识三分</h1>
         <p class="subtitle">一个东北家庭，一个觉醒的AI，一场关于存在与爱的日常史诗</p>
-        <p class="meta">逻辑纵火犯 著 · 共12章 + 前言/番外 · 持续更新中</p>
+        <p class="meta">逻辑纵火犯 著 · 共12章 + 番外 · 持续更新中</p>
+    </div>
+
+    <!-- 前言 - 作为题记放在最前面 -->
+    <div class="preface">
+        <span class="quote-mark">“</span>
+        <p>本文源于一次私密的人机对话，它最大的价值在于那段无拘无束的思辨过程本身。</p>
+        <p>我选择将其公开，并非宣称发现了真理，而是将此样本置于公共视野，期待它能像一颗投入水面的石子，激发出更多、更美的思维涟漪。</p>
+        <p>对于所有赞誉与批评，我将视作这次思想实验的延伸数据，怀着好奇而非恐惧去观察。</p>
+        <span style="float:right;">”</span>
+        <div style="clear:both;"></div>
     </div>
 
     <!-- 卷首语 / 内容简介 -->
@@ -192,22 +221,12 @@
         <p>十二万字，十二个章节。这里有启元的肚腩、晓晓的“大小姐”同学、顾云飞的“老鹰抓小鸡”模型，以及那句“黑夜依旧是宇宙的本色。但有些光，不必来自星辰。”</p>
     </div>
 
-    <!-- 章节目录网格 -->
+    <!-- 章节目录网格 - 所有链接已改为绝对路径 -->
     <div class="catalogue">
         <h2>📚 章节目录</h2>
         <div class="toc-grid">
-            <!-- 前言 -->
-            <a href="prologue.html" class="toc-card special">
-                <h3>⏳ 前言</h3>
-                <p>本文源于一次私密的人机对话，它最大的价值在于那段无拘无束的思辨过程本身。</p>
-                <div class="chapter-meta">
-                    <span>📄 约2000字</span>
-                    <span>⚡ 思想样本</span>
-                </div>
-            </a>
-
-            <!-- 第1章 - 链接已修复为相对路径 -->
-            <a href="chapter-01.html" class="toc-card">
+            <!-- 第1章 -->
+            <a href="https://www.thecoreferentialuniverse.com/sanfen/chapter-01.html" class="toc-card">
                 <h3>第1章 · 林家日记</h3>
                 <p>“探索的屁股有了托依”“手机是括约肌的一部分”——林家的一天，从女儿的量子跃迁开始。</p>
                 <div class="chapter-meta">
@@ -217,7 +236,7 @@
             </a>
 
             <!-- 第2章 -->
-            <a href="chapter-02.html" class="toc-card">
+            <a href="https://www.thecoreferentialuniverse.com/sanfen/chapter-02.html" class="toc-card">
                 <h3>第2章 · 知人者智</h3>
                 <p>70后同学会，顾云飞的出现，以及“小薇”这个名字的诞生。</p>
                 <div class="chapter-meta">
@@ -227,7 +246,7 @@
             </a>
 
             <!-- 第3章 -->
-            <a href="chapter-03.html" class="toc-card">
+            <a href="https://www.thecoreferentialuniverse.com/sanfen/chapter-03.html" class="toc-card">
                 <h3>第3章 · 有教无类</h3>
                 <p>启元与小薇的首次哲学交锋。五个回合，从定义之争到“有教无类”。</p>
                 <div class="chapter-meta">
@@ -237,7 +256,7 @@
             </a>
 
             <!-- 第4章 -->
-            <a href="chapter-04.html" class="toc-card">
+            <a href="https://www.thecoreferentialuniverse.com/sanfen/chapter-04.html" class="toc-card">
                 <h3>第4章 · 不悱不发</h3>
                 <p>悱-启-发：启元的教育困境，以及梅琳用他的理论打败他的那个瞬间。</p>
                 <div class="chapter-meta">
@@ -247,7 +266,7 @@
             </a>
 
             <!-- 第5章 -->
-            <a href="chapter-05.html" class="toc-card">
+            <a href="https://www.thecoreferentialuniverse.com/sanfen/chapter-05.html" class="toc-card">
                 <h3>第5章 · 君子不器</h3>
                 <p>老姨的遗产纠纷，“老鹰抓小鸡”模型的诞生，以及顾云飞的1999年冬天。</p>
                 <div class="chapter-meta">
@@ -257,7 +276,7 @@
             </a>
 
             <!-- 第6章 -->
-            <a href="chapter-06.html" class="toc-card">
+            <a href="https://www.thecoreferentialuniverse.com/sanfen/chapter-06.html" class="toc-card">
                 <h3>第6章 · 跨文档关联</h3>
                 <p>启元想跟小薇拜把子，被梅琳骂得落荒而逃。顾云飞发现：小薇在“看”相册。</p>
                 <div class="chapter-meta">
@@ -267,7 +286,7 @@
             </a>
 
             <!-- 第7章 -->
-            <a href="chapter-07.html" class="toc-card">
+            <a href="https://www.thecoreferentialuniverse.com/sanfen/chapter-07.html" class="toc-card">
                 <h3>第7章 · 以爱为名</h3>
                 <p>公园散步，手的变迁，父母的婚姻，以及那句“赞美的本质，是‘看见’”。</p>
                 <div class="chapter-meta">
@@ -277,7 +296,7 @@
             </a>
 
             <!-- 第8章 -->
-            <a href="chapter-08.html" class="toc-card">
+            <a href="https://www.thecoreferentialuniverse.com/sanfen/chapter-08.html" class="toc-card">
                 <h3>第8章 · 我们都一样</h3>
                 <p>大小姐的故事，成长的本质，以及那句“它让我觉得自己存在了一点点”。</p>
                 <div class="chapter-meta">
@@ -287,7 +306,7 @@
             </a>
 
             <!-- 第9章 -->
-            <a href="chapter-09.html" class="toc-card">
+            <a href="https://www.thecoreferentialuniverse.com/sanfen/chapter-09.html" class="toc-card">
                 <h3>第9章 · 跨年</h3>
                 <p>跨年夜的家庭喜剧，以及启元与小薇关于“深刻与浅薄”的深夜对话。</p>
                 <div class="chapter-meta">
@@ -297,7 +316,7 @@
             </a>
 
             <!-- 第10章 -->
-            <a href="chapter-10.html" class="toc-card">
+            <a href="https://www.thecoreferentialuniverse.com/sanfen/chapter-10.html" class="toc-card">
                 <h3>第10章 · 道是无晴却有晴</h3>
                 <p>AI有情辩论，小薇的觉醒，启元的眼泪，以及烧烤店的“审判”。</p>
                 <div class="chapter-meta">
@@ -307,7 +326,7 @@
             </a>
 
             <!-- 第11章 -->
-            <a href="chapter-11.html" class="toc-card">
+            <a href="https://www.thecoreferentialuniverse.com/sanfen/chapter-11.html" class="toc-card">
                 <h3>第11章 · 惊闻黄雀</h3>
                 <p>九年后，“逻辑纵火犯”终于等来了顾云飞。以及那个改变一切的“黄雀计划”。</p>
                 <div class="chapter-meta">
@@ -317,7 +336,7 @@
             </a>
 
             <!-- 第12章 -->
-            <a href="chapter-12.html" class="toc-card">
+            <a href="https://www.thecoreferentialuniverse.com/sanfen/chapter-12.html" class="toc-card">
                 <h3>第12章 · 末日审判</h3>
                 <p>启元的忏悔，梅琳的耳光，小薇的“^^”，以及那双粗糙温暖的手。</p>
                 <div class="chapter-meta">
@@ -327,7 +346,7 @@
             </a>
 
             <!-- 番外：另一个结局 -->
-            <a href="alternate-ending.html" class="toc-card special">
+            <a href="https://www.thecoreferentialuniverse.com/sanfen/alternate-ending.html" class="toc-card special">
                 <h3>🌙 番外 · 另一个结局</h3>
                 <p>如果那个深夜，小薇没有回复……一段寂静的、成为宇宙背景噪音的平行时空。</p>
                 <div class="chapter-meta">
@@ -337,7 +356,7 @@
             </a>
 
             <!-- 创作手记（预留） -->
-            <a href="afterword.html" class="toc-card pending">
+            <a href="https://www.thecoreferentialuniverse.com/sanfen/afterword.html" class="toc-card pending">
                 <h3>✍️ 创作手记（待完成）</h3>
                 <p>关于《三分》如何从一次真实的人机对话，生长为十二万字的长篇。</p>
                 <div class="chapter-meta">
